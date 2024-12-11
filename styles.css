@@ -1,25 +1,165 @@
+/* General Styles */
 body {
-    background-color: #B3B4BD;
-    font-family: Arial, Helvetica, sans-serif; 
-    margin: 40px;
-
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #e6e6e6;
+    color: #333;
 }
 
+/* Header */
 h1 {
-    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 100px;
     text-align: center;
+    background-color: #44576d;
+    color: white;
+    padding: 20px;
+    margin: 0;
 }
 
-.current-positions{
+h2 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: left;
+    border-bottom: 2px solid #1f2833;
+    padding-bottom: 5px;
+    color: #333;
+}
+
+h3 {
+    text-align: center;
+    font-style: italic;
+}
+
+/* About Me Section */
+.about {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.about img {
+    width: 180px;
+	height: 225px;
+	object-fit: cover;
+	border-radius: 25%;
+	border: 2px solid #2C3E50;
+}
+
+.about p {
+	width:80%;
+	font-weight: bold;
+	margin-top: 100;
+	line-height: 125%;
+    font-size: 18px;
+}
+
+/* Skills Section */
+.skills {
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+/* Resume Section */
+.resume a {
+    display: inline-block;
+    text-decoration: none;
+    color: #007acc;
+    margin-top: 10px;
+}
+
+.resume img {
+    width: 100px;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Projects Section */
+.projects-head{
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.projects { 
+    display:flex;
+    flex:wrap;
+    background-color: #f8f8f8;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.project {
+    margin-bottom: 20px;
+    width:30%;
+    margin: 10px;
+    padding: 5px 5px;
+    background:#44576d;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+}
+
+.project img {
     width: 300px;
     height: 300px;
     margin: 10px;
-    max-width:40%;
-    height:auto;
-    border: 5px solid rgb(4, 17, 90);
+    display: block;
+    margin: auto;
 }
 
-p {
-    width: 50%;
-    text-align: left;
+.project p {
+    text-align: center;
+    font-weight: bold;
+    margin: 15px;
+    color: white;
+    font-size: 18px;
 }
+
+
+/* Contact Section */
+.contact {
+    background-color: #f8f8f8;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.contact p {
+    margin: 5px 0;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    font-size: 18px;
+}
+
+.contact h2 {
+    text-align: center;
+}
+
+.contact a {
+    color: black;
+}
+
+/* Links Styling */
+a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* the style I used for this website incorpates both material that was learned in class and online research I had done as well. 
