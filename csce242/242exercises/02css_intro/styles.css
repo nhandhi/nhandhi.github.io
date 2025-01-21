@@ -1,0 +1,54 @@
+/* give things a unqiue id and style it by that id */
+
+/* Structure */
+body {
+    background:url(images/background\ image.jpg);
+    background-color: blanchedalmond;
+}
+
+/* this id makes it so that anything that has the id "content" will be styled */
+#content {
+    background-color: white;
+    width: 70%;
+    padding: 10px; /* padding in the spacing within the element */
+    margin: auto; /* spacing outside of the element (the bubble) (auto makes it centered, the margin on each side has even spacing*/
+    border: 1px solid blue;
+    border-radius: 10px;
+}
+
+/* styles both the header and footer */
+header, footer{ 
+    background-color: darkcyan;
+    padding: 5px;
+    color: white;
+}
+/* Navigation */
+#main-nav ul{
+    padding-left:0;
+}
+
+#main-nav li{
+    list-style-type: none; /* removes the bullets */
+    display: inline-block;
+}
+
+#main-nav a:hover {
+    color: crimson;
+    border-bottom: 1px solid white;
+}
+
+#main-nav a{
+    color: white;
+    text-decoration: none; /* removes the underline */
+}
+
+/* Typography */
+/* (fonts and designs. dont call it just font bc it sounds cooler. */
+header h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
