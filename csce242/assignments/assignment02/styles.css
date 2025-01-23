@@ -1,0 +1,99 @@
+
+/* Structure */
+body {
+    background:url(images/pokemonwallpaper.jpg);
+    background-color: blanchedalmond;
+    background-size: cover;
+}
+
+#content {
+    background-color: white;
+    width: 70%;
+    padding: 10px;
+    margin: auto;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+/* styles both the header and footer */
+header { 
+    background-color: rgb(244, 73, 73);
+    border: 3px solid black;
+    padding: 5px;
+    color: rgb(255, 255, 255);
+}
+
+footer { 
+    background-color: rgb(254, 252, 252);
+    margin:auto;
+    border: 3px solid black;
+    padding: 1px;
+    color: rgb(0, 0, 0);
+}
+
+/* Navigation */
+#main-nav ul{
+    padding-left:0px;
+    text-align: center;
+    word-spacing: 20px;
+}
+
+#main-nav li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#main-nav a:hover {
+    color: crimson;
+    border-bottom: 1px solid white;
+}
+
+#main-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Pictures */
+img {
+    width:  100px;
+    height: 100px;
+    object-fit: cover;
+    display: inline-block;
+}
+
+/* Tables */
+table{
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+th {
+    background: rgb(244, 73, 73);
+}
+
+
+/* Typography */
+header h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+main h2 {
+    text-align: center;
+}
+
+footer h1{
+    text-align: center;
+}
+
+main th {
+    color: white;
+}

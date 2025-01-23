@@ -1,0 +1,46 @@
+body {
+    background-color: white;
+    background:url(images/wallpaper.jpeg);
+    background-size: cover;
+    color: rgb(255, 249, 249);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#content {
+    background-color: rgb(60, 54, 45);
+    width: 70%;
+    padding: 10px; 
+    margin: auto; 
+    border: 10px solid rgb(237, 203, 164);
+    border-radius: 10px;
+}
+
+header {
+    padding:10px;
+    width: 65%;
+    margin: auto;
+    background-color: rgb(101, 91, 78);
+}
+
+/* Assignments */
+#assignment-nav a:hover {
+    color: crimson;
+    border-bottom: 1px solid white;
+}
+
+#assignment-nav a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Typography */
+header h1 {
+    font-family: sans-serif;
+    font-size: 25px;
+    color: white;
+    text-align: center;
+}
+
+footer p{
+    text-align: center;
+}
