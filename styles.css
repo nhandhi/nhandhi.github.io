@@ -22,15 +22,46 @@ header {
     background-color: rgb(101, 91, 78);
 }
 
-/* Assignments */
+main p {
+    padding:10px;
+    width: 85%;
+    margin: auto;
+    background-color: rgb(141, 113, 84);
+}
+
+.assignments {
+    background-color: bisque;
+    width: 85%;
+    padding: 5px;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.assignment-box {
+    background-color: rgb(141, 113, 84);
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+}
+
+.image img {
+    border: 5px solid #555;
+    display: flex;
+    width:  250px;
+    height: 200px;
+    justify-content: center;
+}
+
+/* Assignments Navigation */
 #assignment-nav a:hover {
     color: crimson;
     border-bottom: 1px solid white;
 }
 
 #assignment-nav a{
-    color: white;
+    color: rgb(255, 255, 255);
     text-decoration: none;
+    text-align: center;
 }
 
 /* Typography */
@@ -41,6 +72,33 @@ header h1 {
     text-align: center;
 }
 
-footer p{
+footer h2{
     text-align: center;
+}
+
+main h2{
+    text-align: center;
+}
+
+.assignments p{
+    color: rgb(255, 255, 255);
+}
+
+/* larger resolution */
+@media (min-width: 900px) {
+    .assignments {
+        display: flex;
+        flex-direction: row;
+        flex: 1;
+    }
+    .assignment-box {
+        flex-direction: column;
+        display: flex;
+        flex: 1;
+    }
+
+    .image img{
+        display: flex;
+        flex: 1;
+    }
 }
