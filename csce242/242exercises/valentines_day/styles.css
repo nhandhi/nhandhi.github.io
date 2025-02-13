@@ -26,10 +26,11 @@ body {
 
 .container h1 {
   white-space: nowrap;
+
 }
 
 .container, .tenor-gif-embed {
-    min-width: 500px;
+    max-width: 300px;
 }
 
 .container .btn {
